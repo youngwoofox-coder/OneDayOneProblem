@@ -49,6 +49,3 @@ Name
 ### 7. 결과 및 느낀점 (Results & Reflections)
 - 최종 결과 (메모리 사용량, 실행 시간 등)
 - 새롭게 알게 된 문법이나 아이디어 정리
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white)
