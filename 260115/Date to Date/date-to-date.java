@@ -20,6 +20,7 @@ public class Main {
             result++;
         }else if(m1==m2){
             result = d2-d1;
+            result++;
         }
         
         System.out.print(result);
