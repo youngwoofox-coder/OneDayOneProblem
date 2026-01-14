@@ -12,12 +12,15 @@ public class Main {
         
         int result = 0;
         if(m1!=m2){
-            result += (num_of_days[m1] -d1);}
-        for(int i=m1+1; i<m2;i++){
-            result += num_of_days[i];
+            result += (num_of_days[m1] -d1);
+            for(int i=m1+1; i<m2;i++){
+                result += num_of_days[i];
+            }
+            result += d2;
+            result++;
+        }else if(m1==m2){
+            result = d2-d1;
         }
-        result += d2;
-        result++;
         
         System.out.print(result);
     }
