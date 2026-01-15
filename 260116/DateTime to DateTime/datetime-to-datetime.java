@@ -17,9 +17,9 @@ public class Main {
 
         if(A<11){
             System.out.print(-1);
-        }else if(B<11){
+        }else if(A<11 && B<11){
                 System.out.print(-1);
-            }else if(C<11){
+            }else if(A<11 && B<11 && C<11){
                 System.out.print(-1);
             }
             else{
