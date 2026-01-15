@@ -15,9 +15,7 @@ public class Main {
         int m =0;
         int result =0;
 
-        if(A<=11 && B<11 && C<11){
-            System.out.print(-1);
-        }else{
+        if(A>=11 && B>=11 && C>=11){
             d = A*24*60;
             s = B*60;
             m = C;
@@ -26,6 +24,9 @@ public class Main {
             result -= (11*24*60) + (11*60) + (11);  
 
             System.out.print(result);
+
+        }else{
+            System.out.print(-1);
         }
 
     }
