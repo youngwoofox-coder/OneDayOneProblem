@@ -26,15 +26,16 @@ public class Main {
 
         if(md1>md2){
              result_num = md1-md2;
-             result_num = 7 - result_num;
+             result_num = 7 - (result_num%7);
         }else {
             result_num = md2-md1;
+            result_num = result_num%7;
         }
         //System.out.println(md1);
         //System.out.println(md2);
         //System.out.println(result_num);
 
-        switch(result_num = result_num%7){
+        switch(result_num ){
         case 0: 
             System.out.print("Mon");
             break;
