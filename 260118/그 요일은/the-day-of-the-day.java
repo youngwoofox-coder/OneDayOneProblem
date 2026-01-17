@@ -43,8 +43,8 @@ public class Main {
         md2 += d2;
         
         int result =md2-md1;
-        result = result%7 -1;
-        if(result<=day){result++;}
+        result = result%7;
+        if(result>=day){result++;}
 
         System.out.print(result);
     
