@@ -12,21 +12,17 @@ public class Main {
 
         int[] months = new int[]{0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         int day=0;
-        if(A=="Mon"){
-            day=0;
-        }else if(A=="Tue"){
-            day=1;
-        }else if(A=="Wed"){
-            day=2;
-        }else if(A=="Thu"){
-            day=3;
-        }else if(A=="Fri"){
-            day=4;
-        }else if(A=="Sat"){
-            day=5;
-        }else if(A=="Sun"){
-            day=6;
-        }
+
+        switch (A) {
+        case "Mon": day = 0; break;
+        case "Tue": day = 1; break;
+        case "Wed": day = 2; break;
+        case "Thu": day = 3; break;
+        case "Fri": day = 4; break;
+        case "Sat": day = 5; break;
+        case "Sun": day = 6; break;
+    }
+
 
         int md1=0;
         int md2=0;
@@ -44,8 +40,10 @@ public class Main {
         
         int result =md2-md1;
         result = result%7;
-        if(result>=day){result++;}
-
+        //System.out.println(day);
+        //System.out.println(result);
+        if(result<=day){result++;}
+        
         System.out.print(result);
     
     }
