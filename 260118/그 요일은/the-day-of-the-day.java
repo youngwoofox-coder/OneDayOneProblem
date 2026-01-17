@@ -38,8 +38,8 @@ public class Main {
         md1 += d1;
         md2 += d2;
         
-        int result =md2-md1;
-        result = result%7;
+        int result = md2-md1;
+        result = result/7;
         //System.out.println(day);
         //System.out.println(result);
         if(result<=day){result++;}
