@@ -42,7 +42,7 @@ public class Main {
         result = result/7;
         //System.out.println(day);
         //System.out.println(result);
-        if(result<=day){result++;}
+        if(result%7 <= day){result++;}
         
         System.out.print(result);
     
