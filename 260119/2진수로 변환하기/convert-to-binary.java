@@ -22,5 +22,6 @@ public class Main {
         for(int i=index -1; i>=0;i--){
             System.out.print(binary[i]);
         }
+        if(n==0) System.out.print(n);
     }
 }
