@@ -22,7 +22,7 @@ public class Main {
         while(C>=1){
             B_remian = C%B;
             C = C/B;
-            result = result + B_remian;
+            result = B_remian + result;
         }
         System.out.print(result);
 
