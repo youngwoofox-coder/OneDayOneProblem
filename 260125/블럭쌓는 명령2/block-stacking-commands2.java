@@ -19,12 +19,17 @@ public class Main {
         }
         // Please write your code here.
         int result =array[0];
+
         for (int i = 0; i < N-1 ; i++){
-            if(array[i]<array[i+1]){
+            if(result<array[i+1]){
                 result = array[i+1];
             }
         }
-        
+        /*
+        for (int i = 0; i < N-1 ; i++){
+            System.out.println(array[i]);
+        }
+        */
 
        System.out.print(result);
     }
