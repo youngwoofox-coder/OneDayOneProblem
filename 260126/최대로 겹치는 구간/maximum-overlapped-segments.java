@@ -17,7 +17,14 @@ public class Main {
             if(start > x1[i]){start= x1[i];}
             if(end < x2[i]){end = x2[i];}
         }
-        
+
+        if(start<0){
+            end -= start;
+            for (int i = 0; i < n; i++) {
+            x1[i] -= start;
+            x2[i] -= start;
+        }
+        }
 
         int[] result = new int[end+1];
 
