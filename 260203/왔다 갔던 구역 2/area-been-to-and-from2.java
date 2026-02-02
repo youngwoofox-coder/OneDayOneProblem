@@ -4,7 +4,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int point =500;
-        int[] array = new int[1000];
+        int[] array = new int[1500];
         int min=500;
         int max=500;
         for (int i = 0; i < n; i++) {
