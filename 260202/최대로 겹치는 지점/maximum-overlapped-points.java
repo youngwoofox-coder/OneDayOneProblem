@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] array = new int[100];
+        int[] array = new int[1000];
         int N = sc.nextInt();
         int min=10000;
         int max =0;
