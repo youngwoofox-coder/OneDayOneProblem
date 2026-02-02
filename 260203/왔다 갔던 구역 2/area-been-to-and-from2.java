@@ -13,8 +13,8 @@ public class Main {
             int zero=0;
             while(zero<x){
                 zero++;
-                if(y=='R'){point++; array[point]++;}
-                else {point--; array[point]++;}
+                if(y=='R'){array[point]++; point++;}
+                else {array[point-1]++; point--;}
 
                 if(point<min){min=point;}
                 if(max<point){max=point;}
