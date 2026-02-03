@@ -8,8 +8,8 @@ public class Main {
         int[] B_array = new int[100000];
         int[] array = new int[100000];
         int point = 50000;
-        int min =5000;
-        int max =5000;
+        int min =50000;
+        int max =50000;
 
         for (int i = 0; i < N; i++) {
             int x = sc.nextInt();
