@@ -4,12 +4,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
 
-        int[] W_array = new int[1000];
-        int[] B_array = new int[1000];
-        int[] array = new int[1000];
-        int point = 500;
-        int min =500;
-        int max =500;
+        int[] W_array = new int[10000];
+        int[] B_array = new int[10000];
+        int[] array = new int[10000];
+        int point = 5000;
+        int min =5000;
+        int max =5000;
 
         for (int i = 0; i < N; i++) {
             int x = sc.nextInt();
