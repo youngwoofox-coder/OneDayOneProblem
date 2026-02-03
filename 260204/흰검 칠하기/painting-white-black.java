@@ -4,10 +4,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
 
-        int[] W_array = new int[10000];
-        int[] B_array = new int[10000];
-        int[] array = new int[10000];
-        int point = 5000;
+        int[] W_array = new int[100000];
+        int[] B_array = new int[100000];
+        int[] array = new int[100000];
+        int point = 50000;
         int min =5000;
         int max =5000;
 
