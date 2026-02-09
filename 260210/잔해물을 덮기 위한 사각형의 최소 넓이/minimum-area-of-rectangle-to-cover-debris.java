@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
-        static int[][] array = new int[10000][10000];
-        static int point = 5000;
+        static int[][] array = new int[2000][2000];
+        static int point = 1000;
         static int size =0;
 
         static int min_x=10000;
